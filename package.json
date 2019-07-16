@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://muratovroman.github.io/social-app",
+  "vue": {
+    "publicPath": "/social-app/"
+  },
   "scripts": {
     "ghpages": "git subtree push --prefix dist origin gh-pages",
     "serve": "vue-cli-service serve",
